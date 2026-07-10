@@ -8,7 +8,7 @@ using std::setprecision;
 using std::string;
 
 //sum is 664, average is 66.4,
-//7 will pass, highest score is 90 (index 7),
+//7 will pass, highest score is 98 (index 7),
 //lowest score is 2 (index 9)
 
 int main() 
