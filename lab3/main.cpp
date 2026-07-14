@@ -16,13 +16,13 @@ int main()
 	int scores[] = {85, 10, 70, 80, 90, 98, 92, 60, 77, 2};
 	int n = sizeof(scores) / sizeof(scores[0]); //finding size of array but unsure about using these commands
 	
-	int sum = 0;
+	double sum = 0;
 	for (int i = 0; i < n; i++) // find sum of array
 	{
 		sum += scores[i];
 	}
 
-	double avg = sum / n; // find avg of array
+	double avg = (double)sum / n; // find avg of array
 	int j = 0;
 	int p = 0;
 	while (j < n) {
